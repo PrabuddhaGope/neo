@@ -55,6 +55,12 @@
         <div id="landing" class="g-fullheight--xs">
             <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" style="width:100%;background: rgba(255,255,255,0)">
                 <div class="g-margin-b-60--xs">
+
+                    <img class="resize" src="public/img/new-landing.png" alt="StartUp Conclave">
+
+                </div>
+                <div class="g-margin-b-60--xs">
+
                     <img class="resize" src="public/img/log.png" alt="StartUp Conclave">
                     <p class="g-font-size-18--xs g-font-size-26--md g-color--dark g-margin-b-0--xs">Enlighting students and young entrepreneurs in their entrepreneurial journey.</p>
                 </div>
