@@ -135,15 +135,27 @@ background:black;
 
     /*#home{
 
-        background-image: url("../img/landin-01.jpg");
+        background-image: url("../img/new-landing.jpg");
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size:cover;
             background-size: cnew-over;
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;
+
     }*/
+
+    #landing{
+
+        background-image: url("../img/new-landing.jpg");
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size:cover;
+            background-size: cnew-over;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
 
     #faq, #contact, #structure, #register, #login{
         background-repeat: no-repeat;
@@ -172,12 +184,26 @@ background:black;
 
 
     #landing {
-        background-color: white;
+        background-image: url("../img/neo-mobile-landing.jpg");
+          -webkit-background-size: contain;
+          -moz-background-size: contain;
+          -o-background-size:contain;
+            background-size: cnew-over;
+        background-repeat: no-repeat;
+        background-position: center;
+        
       }
 
-    #home{
-        background: #0b0b0b;
-    }
+    /*#home{
+      background-image: url("../img/neo-mobile-landing.jpg");
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size:contain;
+          background-size: cnew-over;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }*/
 }
 
 #popup, #round11, #round2, #round3{
@@ -256,3 +282,8 @@ background:black;
     height: 50vh;
   }
 }
+
+#swades{
+        background-size: cover !important;
+        background-position: 65% !important;
+    }

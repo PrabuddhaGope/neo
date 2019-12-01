@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 39.18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0f9dce;
+      }
+
+      .cls-2 {
+        font-size: 18.42px;
+        fill: #fff;
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <title>Untitled-2</title>
+  <g>
+    <rect class="cls-1" width="200" height="39.18" rx="19.59" ry="19.59"/>
+    <text class="cls-2" transform="translate(26 25.48)">REGISTER N<tspan class="cls-3" x="112.55" y="0">O</tspan><tspan x="127.21" y="0">W</tspan></text>
+  </g>
+</svg>

@@ -25,7 +25,7 @@
                             <div class="s-header-v2__logo">
                                 <a href="/" class="s-header-v2__logo-link">
                                     <img class="s-header-v2__logo-img s-header-v2__logo-img--default"  src="public/img/ecell-black-logo.png" alt="Ecell Logo" height="50">
-                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="public/img/2.png" alt="StartUp Conclave" height="60">
+                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="public/img/logo-ecell-sm.png" alt="StartUp Conclave" height="60">
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -53,10 +53,10 @@
 
         <!--========== PROMO BLOCK ==========-->
         <div id="landing" class="g-fullheight--xs">
-            <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" style="width:100%;background: rgba(255,255,255,0)">
-                <div class="g-margin-b-60--xs">
+            <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" >
+                <!--<div class="g-margin-b-60--xs">
 
-                    <img class="resize" src="public/img/new-landing.png" alt="StartUp Conclave">
+                    <img class="resize" src="public/img/B-01-01.png" alt="StartUp Conclave">
 
                 </div>
                 <div class="g-margin-b-60--xs">
@@ -66,9 +66,10 @@
                 </div>
 
 
-            </div>
+            </div>-->
             <!--</div>-->
         </div>
+      </div>
         <!--========== END PROMO BLOCK ==========-->
 
         <!-- REGISTER -->
@@ -131,15 +132,14 @@
                     <!--<p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">About</p>-->
                     <!--<h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">About PNAF</h2>-->
                     <p class="g-font-size-18--sm">National Entrepreneurship Olympiad (NEO) is one
-of the national exam which is first of its kind. The
-aim of NEO is to introduce basic entrepreneurial
-terms like marketing, banking, investing, mutual
-funds, stock market, functions of RBI, etc to
-school students. This exam will be focusing on
-development of logical analytics, english profi-
-ciency, economics, case study, etc. and will help
-students to know Entrpreneurship better and will
-give exposure to new world of entreprenurship.</p>
+                        of the national exam which is first of its kind. The
+                        aim of NEO is to introduce basic entrepreneurial
+                        terms like marketing, banking, investing, mutual
+                        funds, stock market, functions of RBI, etc to
+                        school students. This exam will be focusing on
+                        development of logical analytics, english proficiency, economics, case study, etc. and will help
+                        students to know Entrpreneurship better and will
+                        give exposure to new world of entreprenurship.</p>
                 </div>
             </div>
             <div class="row g-hor-centered-row--md g-row-col--5">
@@ -401,7 +401,7 @@ give exposure to new world of entreprenurship.</p>
                     <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
                         <div class="g-text-center--xs">
                             <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Ved Kotpalliwar</h4>
-                            <p class="g-color--white">+91 81048 6608<br>vedkotpalliwar@gmail.com</p>
+                            <p class="g-color--white">+91 81048 66608<br>vedkotpalliwar@gmail.com</p>
                         </div>
                     </div>
 
@@ -415,7 +415,7 @@ give exposure to new world of entreprenurship.</p>
                         <div class="g-text-center--xs">
                             <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
                             <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Email</h4>
-                            <p class="g-color--white">startupconclave@ecellvnit.org</p>
+                            <p class="g-color--white">neo@ecellvnit.org</p>
                         </div>
                     </div>
                     <div class="col-xs-6 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
