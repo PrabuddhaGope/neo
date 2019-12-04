@@ -157,6 +157,15 @@ background:black;
 
     }
 
+    #reg {
+      background: rgba(0,0,0,0.8);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+          background-size: cnew-over;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
     #faq, #contact, #structure, #register, #login{
         background-repeat: no-repeat;
         background-position: center;
@@ -191,7 +200,7 @@ background:black;
             background-size: cnew-over;
         background-repeat: no-repeat;
         background-position: center;
-        
+
       }
 
     /*#home{

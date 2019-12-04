@@ -37,6 +37,7 @@
                                 <ul class="s-header-v2__nav">
                                     <li class="s-header-v2__nav-item"><a href="#home" class="s-header-v2__nav-link">Home</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">About Us</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="#reg" class="s-header-v2__nav-link">Register</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#faq" class="s-header-v2__nav-link">FAQs</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#contact" class="s-header-v2__nav-link">Contact</a></li>
                                 </ul>
@@ -53,7 +54,7 @@
 
         <!--========== PROMO BLOCK ==========-->
         <div id="landing" class="g-fullheight--xs">
-            <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" >
+            <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" style="width:100%;background: rgba(255,255,255,0)">
                 <!--<div class="g-margin-b-60--xs">
 
                     <img class="resize" src="public/img/B-01-01.png" alt="StartUp Conclave">
@@ -278,6 +279,40 @@
       </div>
   </div>
 
+  <!-- REGISTER -->
+  <div id="reg" class="bg_element">
+    <!-- <h2 class="g-text-center--xs g-font-size-22--xs g-font-size-36--md g-color--white g-padding-y-20--xs g-padding-y-60--sm">Register Now</h2> -->
+    <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" >
+      <div class="g-margin-b-60--xs">
+        <p class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Register Here</p>
+    </div>
+
+    <form class="center-block g-width-500--sm g-width-550--md" role="form" method="post" action="reglog/register.php">
+              <div class="g-margin-b-30--xs">
+                  <input type="text" class="form-control s-form-v3__input" placeholder="* Name" name="Name" required>
+              </div>
+            <div class="row g-row-col-5 g-margin-b-50--xs">
+                  <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
+                      <input type="email" class="form-control s-form-v3__input" placeholder="* Email" name="Email" required>
+                  </div>
+                  <div class="col-sm-6">
+                      <input type="number" pattern="[789][0-9]{9}" class="form-control s-form-v3__input" placeholder="* Phone" name="Phone" required>
+                </div>
+              </div>
+              <div class="g-margin-b-30--xs">
+                  <input type="text" class="form-control s-form-v3__input" placeholder="* School Name" name="SchoolName" required>
+              </div>
+              <div class="g-margin-b-30--xs">
+                  <input type="text" class="form-control s-form-v3__input" placeholder="* School City" name="SchoolCity" required>
+              </div>
+
+              <div class="g-text-center--xs">
+                  <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs" name="register">Submit</button>
+              </div>
+          </form>
+        </div>
+      </div>
+
 
 
         <!-- FAQ -->
@@ -415,7 +450,7 @@
                         <div class="g-text-center--xs">
                             <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
                             <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Email</h4>
-                            <p class="g-color--white">neo@ecellvnit.org</p>
+                            <p class="g-color--white">contact@ecellvnit.org</p>
                         </div>
                     </div>
                     <div class="col-xs-6 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
