@@ -29,8 +29,9 @@
     if (!$create_table1) {
       echo("Can't create table1" . mysqli_error($con));
     }
-    $insert = mysqli_query($con,"INSERT INTO CA(Name,Email,Phone,SchoolName,SchoolCity,Password)
-                              VALUES('$Name','$Email','$Phone','$SchoolName', '$SchoolCity','$Password')");
+    $insert = mysqli_query($con,"INSERT INTO USER(Name,Email,Phone,SchoolName,SchoolCity,Password)
+                              VALUES('$Name','$Email','$Phone','$SchoolName','$SchoolCity','$Password')");
+
     $mail = new PHPMailer(TRUE);
 
       //Tell PHPMailer to use SMTP
@@ -163,7 +164,50 @@
   <!DOCTYPE html>
   <html lang="en">
 
-  <?php include("includes/head.php");?>
+  <!-- Begin Head -->
+      <head>
+
+          <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-125403862-1"></script>
+          <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-125403862-1');
+          </script>
+          <!-- Basic -->
+          <meta charset="utf-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <meta http-equiv="x-ua-compatible" content="ie=edge">
+          <title>NEO</title>
+          <meta name="keywords" content="Ecell, PNAF, Pan nit, vnit, Ecell VNIT, entreprenuship cell, Startup Conclave, 2019, consortium'19, vnit consortium, internit, business plan">
+          <meta name="description" content="Great ideas result into great great undertakings which pave the way for glaring success. In order to facilitate this vision of promoting entrepreneurship in India, E-Cell VNIT organizes StartUp Conclave, a national business plan competition with PNAF">
+          <meta name="author" content="Sagar Bansal">
+          <meta name="theme-color" content="rgb(0,0,0)")>
+          <!-- Web Fonts -->
+          <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+
+          <!-- Vendor Styles -->
+          <link href="../public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/css/animate.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+
+
+          <!-- Theme Styles -->
+          <link href="../public/css/style.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/css/global/global.css" rel="stylesheet" type="text/css"/>
+          <link href="../public/css/custom.css" rel="stylesheet" type="text/css"/>
+
+          <!-- Favicon -->
+          <link rel="shortcut icon" href="../public/img/2.png" type="image/x-icon">
+
+      </head>
+      <!-- End Head -->
 
 
   <!-- Body -->
@@ -188,8 +232,8 @@
                           <!-- Logo -->
                           <div class="s-header-v2__logo">
                               <a href="/" class="s-header-v2__logo-link">
-                                  <img class="s-header-v2__logo-img s-header-v2__logo-img--default"  src="public/img/ecell-black-logo.png" alt="Ecell Logo" height="50">
-                                  <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="public/img/logo-ecell-sm.png" alt="StartUp Conclave" height="60">
+                                  <img class="s-header-v2__logo-img s-header-v2__logo-img--default"  src="../public/img/ecell-black-logo.png" alt="Ecell Logo" height="50">
+                                  <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="../public/img/logo-ecell-sm.png" alt="StartUp Conclave" height="60">
                               </a>
                           </div>
                           <!-- End Logo -->
@@ -220,12 +264,12 @@
           <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" style="width:100%;background: rgba(255,255,255,0)">
               <!--<div class="g-margin-b-60--xs">
 
-                  <img class="resize" src="public/img/B-01-01.png" alt="StartUp Conclave">
+                  <img class="resize" src="../public/img/B-01-01.png" alt="StartUp Conclave">
 
               </div>
               <div class="g-margin-b-60--xs">
 
-                  <img class="resize" src="public/img/log.png" alt="StartUp Conclave">
+                  <img class="resize" src="../public/img/log.png" alt="StartUp Conclave">
                   <p class="g-font-size-18--xs g-font-size-26--md g-color--dark g-margin-b-0--xs">Enlighting students and young entrepreneurs in their entrepreneurial journey.</p>
               </div>
 
@@ -235,11 +279,96 @@
       </div>
     </div>
     <!--========== FOOTER ==========-->
-    <?php include("includes/footer.php");?>
+    <!--========== FOOTER ==========-->
+            <footer class="g-bg-color--dark">
+                <!-- End Links -->
+                <div class="container g-padding-y-60--xs">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+
+                            <!--<a href="http://pnaf.in">-->
+                                <!--<img class="img-responsive g-padding-x-0--xs" style="height: 45px" src="../public/img/pnaf_logo.png" alt="PNAF">-->
+                            <!--</a>-->
+
+                            <div style="display: flex">
+
+
+
+
+
+                                <a href="/" style="margin-left: 20px;">
+                                    <img class="g-width-100--xs g-height-auto--xs" src="../public/img/E-Cell_white.png" alt="Ecell Logo">
+                                </a>
+                            </div>
+
+                            <br><br>
+                            <a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">
+                                <i class="g-padding-r-5--xs ti-facebook"></i>
+                                <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
+                            </a>
+                            <a class="s-header__action-link" href="https://twitter.com/ecell_vnit" target="_blank">
+                                <i class="g-padding-r-5--xs ti-twitter"></i>
+                                <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
+                            </a>
+                            <a class="s-header__action-link" href=" https://www.instagram.com/ecellvnit/" target="_blank">
+                                <i class="g-padding-r-5--xs ti-instagram"></i>
+                                <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
+                            </a>
+                            <br>
+                            <a class="s-header__action-link" href=" https://www.linkedin.com/company/6615520/" target="_blank">
+                                <i class="g-padding-r-5--xs ti-linkedin"></i>
+                                <span class="g-display-none--xs g-display-inline-block--sm">LinkedIn</span>
+                            </a>
+                            <a class="s-header__action-link" href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank">
+                                <i class="g-padding-r-5--xs ti-youtube"></i>
+                                <span class="g-display-none--xs g-display-inline-block--sm">YouTube</span>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                                <p class="g-color--white">For Association Opportunities Contact:<br><b>contact@ecellvnit.org</b></p>
+                                <p class="g-color--white">For Sponsorship Opportunities Contact:<br><b>agnikrishnaa@gmail.com<b></b></b></p><b><b>
+
+                        </b></b></div><b><b>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-text-right--md">
+                            <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white"> All rights reserved<br>© <a class="g-color--primary" href="https://www.ecellvnit.org/" target="_blank">E-cell Vnit</a></p>
+                        </div>
+                    </b></b></div><b><b>
+                </b></b>
+                </div>
+                <!-- End Copyright -->
+            </footer>
+
 
     <!--========== END FOOTER ==========-->
 
-    <?php include("includes/scripts.php");?>
+    <!-- Back To Top -->
+            <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
+            <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+            <!-- Vendor -->
+            <script type="text/javascript" src="../public/vendor/jquery.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/jquery.migrate.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/bootstrap/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/jquery.smooth-scroll.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/jquery.back-to-top.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/scrollbar/jquery.scrollbar.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/jquery.parallax.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/swiper/swiper.jquery.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/jquery.wow.min.js"></script>
+            <script type="text/javascript" src="../public/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+
+            <!-- General Components and Settings -->
+            <script type="text/javascript" src="../public/js/global.min.js"></script>
+            <script type="text/javascript" src="../public/js/components/header-sticky.min.js"></script>
+            <script type="text/javascript" src="../public/js/components/scrollbar.min.js"></script>
+            <script type="text/javascript" src="../public/js/components/magnific-popup.min.js"></script>
+            <script type="text/javascript" src="../public/js/components/swiper.min.js"></script>
+            <script type="text/javascript" src="../public/js/components/wow.min.js"></script>
+            <script type="text/javascript" src="../public/js/components/faq.min.js"></script>
+            <script type="text/javascript" src="../public/js/components/portfolio-4-col-slider.min.js"></script>
+            <script type="text/javascript" src="../public/js/custom.js"></script>
+
     <!--========== END JAVASCRIPTS ==========-->
   </body>
 
