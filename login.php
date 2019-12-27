@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<?php include("includes/head.php") ?>
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -74,6 +70,10 @@
                         <input type="text" class="form-control s-form-v3__input" placeholder="* Password" name="Password" required>
                     </div>
 
+                    <div class="g-text-center--xs">
+                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs" name="login">Submit</button>
+                    </div>
+
                 </form>
               </div>
             </div>
@@ -83,6 +83,6 @@
 <?php include("includes/footer.php") ?>
 
 
-      <?php include("includes/footer.php") ?>
+
     </body>
     </html>

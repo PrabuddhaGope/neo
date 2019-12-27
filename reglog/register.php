@@ -9,7 +9,7 @@
   // require '../vendor/phpmailer/phpmailer/src/Exception.php';
 
   if(isset($_POST['register'])){
-    require "../dbconnect.php";
+    require "dbconnect.php";
     $Name = $con->real_escape_string($_POST['Name']);
     $Email = $con->real_escape_string($_POST['Email']);
     $Phone = $con->real_escape_string($_POST['Phone']);

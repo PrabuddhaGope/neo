@@ -39,6 +39,8 @@
                                     <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">About Us</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#reg" class="s-header-v2__nav-link">Register</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#faq" class="s-header-v2__nav-link">FAQs</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="login.php" class="s-header-v2__nav-link">Login</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="reglog/logout.php" class="s-header-v2__nav-link">Logout</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#contact" class="s-header-v2__nav-link">Contact</a></li>
                                 </ul>
                             </div>
@@ -72,49 +74,14 @@
         </div>
       </div>
         <!--========== END PROMO BLOCK ==========-->
-
         <!-- REGISTER -->
-        <div id="regnow" class="bg_element">
+        <div id="reg" class="bg_element">
           <!-- <h2 class="g-text-center--xs g-font-size-22--xs g-font-size-36--md g-color--white g-padding-y-20--xs g-padding-y-60--sm">Register Now</h2> -->
           <div class="g-text-center--xs g-margin-b-30--xs">
-              <p class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Registrations will begin soon !</p>
+              <a href="https://drive.google.com/drive/folders/1lqayohsBHZy1jC1qRttWYoy-HG8CBluD?usp=sharing" class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Download Study Material</a>
           </div>
-          <!-- <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>16<sup>th</sup> January 2019:</span></b> Results of Round 1 will be declared</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>18<sup>th</sup> January 2019:</span></b> A webinar on 'How to Create a B-Plan'</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>20<sup>th</sup> January 2019:</span></b> Mentor Allotment to the qualified teams</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>21<sup>st</sup> January 2019:</span></b> Mentoring session commences</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>5<sup>th</sup> February 2019:</span></b> B-Plan Draft Submission</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>12<sup>th</sup> February 2019:</span></b> Final B-Plan Submission with the Pitch deck</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>15<sup>th</sup> February 2019:</span></b> Results of Round 3 will be declared</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>18<sup>th</sup> February 2019:</span></b> Ultimate B-Plan Submission for the Round 2 qualified teams</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>1<sup>st</sup> March 2019:</span></b> Final Round in VNIT Nagpur (InterNIT)</p>
-          <p class="g-text-center--xs g-font-size-14--xs g-font-size-20--md g-color--white g-padding-y-20--xs g-padding-y-5--sm" style="border-bottom: 1px solid #fff;"><span style="float:left;"><b>2<sup>nd</sup> March 2019:</span></b> Final Round in VNIT Nagpur (Open)</p> -->
-          <!-- <p class="text-uppercase g-text-center--xs g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Registrations are open till 5<sup>th</sup> January 2019</p> -->
-            <!--<div class="row">
-                <div class="g-text-center--xs g-margin-b-100--xs col-xs-12 col-sm-6">
-                  <div class="g-text-center--xs g-margin-b-30--xs">
-                      <p class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">INTER-NIT</p>
-                  </div>
-                    <p class="g-font-size-18--sm g-text-center--xs g-color--white">Introducing a special tier for NITians to foster the brand 'NIT' globally. All students currently studying in NITs are encouraged to register through this tier. The segregation is done to recognize the best ideas from the NITs.</p>
-                    <p class="text-uppercase g-font-size-14--xs g-color--white g-font-weight--400 g-letter-spacing--1 g-margin-b-25--xs">Until 05 JAN 19</p>
-                    <span class="g-display-block--xs g-display-inline-block--sm g-padding-x-5--xs g-margin-b-10--xs g-margin-b-0--sm" style="padding-top:29px;">
-                        <a href="/register" class="g-text-center--xs text-uppercase s-btn s-btn-icon--md s-btn--white-brd g-radius--50 g-padding-x-65--xs">Register Here</a>
-                    </span>
-                </div>
-                <div class="g-text-center--xs g-margin-b-100--xs col-xs-12 col-sm-6">
-                  <div class="g-text-center--xs g-margin-b-30--xs">
-                      <p class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">OPEN</p>
-                  </div>
-                    <p class="g-font-size-18--sm g-text-center--xs g-color--white">This tier will include all the teams who are not currently studying in any NIT. The open tier is a platform for all the startups across India to exhibit their idea and procure great opportunities.</p>
-                    <p class="text-uppercase g-font-size-14--xs g-color--white g-font-weight--400 g-letter-spacing--1 g-margin-b-25--xs">Until 05 JAN 19</p>
-                    <br>
-                    <span class="g-display-block--xs g-display-inline-block--sm g-padding-x-5--xs g-margin-b-10--xs g-margin-b-0--sm" style="padding-top:3px;">
-                        <a href="/registerother" class="g-text-center--xs text-uppercase s-btn s-btn-icon--md s-btn--white-brd g-radius--50 g-padding-x-65--xs">Register Here</a>
-                    </span>
-                </div>
-            </div>-->
         </div>
-        <!-- END REGISTER -->
+
 
         <!--========== PAGE CONTENT ==========-->
         <!-- About -->
@@ -279,39 +246,7 @@
       </div>
   </div>
 
-  <!-- REGISTER -->
-  <div id="reg" class="bg_element">
-    <!-- <h2 class="g-text-center--xs g-font-size-22--xs g-font-size-36--md g-color--white g-padding-y-20--xs g-padding-y-60--sm">Register Now</h2> -->
-    <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" >
-      <div class="g-margin-b-60--xs">
-        <p class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Register Here</p>
-    </div>
-
-    <form class="center-block g-width-500--sm g-width-550--md" role="form" method="post" action="reglog/register.php">
-              <div class="g-margin-b-30--xs">
-                  <input type="text" class="form-control s-form-v3__input" placeholder="* Name" name="Name" required>
-              </div>
-            <div class="row g-row-col-5 g-margin-b-50--xs">
-                  <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                      <input type="email" class="form-control s-form-v3__input" placeholder="* Email" name="Email" required>
-                  </div>
-                  <div class="col-sm-6">
-                      <input type="number" pattern="[789][0-9]{9}" class="form-control s-form-v3__input" placeholder="* Phone" name="Phone" required>
-                </div>
-              </div>
-              <div class="g-margin-b-30--xs">
-                  <input type="text" class="form-control s-form-v3__input" placeholder="* School Name" name="SchoolName" required>
-              </div>
-              <div class="g-margin-b-30--xs">
-                  <input type="text" class="form-control s-form-v3__input" placeholder="* School City" name="SchoolCity" required>
-              </div>
-
-              <div class="g-text-center--xs">
-                  <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs" name="register">Submit</button>
-              </div>
-          </form>
-        </div>
-      </div>
+  
 
 
 
