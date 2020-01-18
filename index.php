@@ -37,7 +37,7 @@
                                 <ul class="s-header-v2__nav">
                                     <li class="s-header-v2__nav-item"><a href="#home" class="s-header-v2__nav-link">Home</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">About Us</a></li>
-                                    <li class="s-header-v2__nav-item"><a href="#reg" class="s-header-v2__nav-link">Register</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="register.php" class="s-header-v2__nav-link">Register</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#faq" class="s-header-v2__nav-link">FAQs</a></li>
                                     <li class="s-header-v2__nav-item"><a href="login.php" class="s-header-v2__nav-link">Login</a></li>
                                     <li class="s-header-v2__nav-item"><a href="reglog/logout.php" class="s-header-v2__nav-link">Logout</a></li>

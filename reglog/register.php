@@ -24,13 +24,13 @@
                                                                     Phone varchar(255),
                                                                     SchoolName varchar(255),
                                                                     SchoolCity varchar(255),
-                                                                    Password varchar(255),
-                                                                    paid tinyint(1))");
+                                                                    Password varchar(255) ,
+                                                                    Paid tinyint(1))");
 
     if (!$create_table1) {
       echo("Can't create table1" . mysqli_error($con));
     }
-    $insert = mysqli_query($con,"INSERT INTO USER(Name,Email,Phone,SchoolName,SchoolCity,Password)
+    $insert = mysqli_query($con,"INSERT INTO user(Name,Email,Phone,SchoolName,SchoolCity,Password)
                               VALUES('$Name','$Email','$Phone','$SchoolName','$SchoolCity','$Password')");
 
     $mail = new PHPMailer(TRUE);
@@ -147,12 +147,22 @@
         echo 'Message was not send';
       }
 
+if($insert){
+      header("location:../payup.php");
 
+<<<<<<< HEAD
+=======
     if($insert){
       header('location: ../payup.php');
 
+>>>>>>> b52255a343d83a3daac3699ae7ddef7593243dfd
       }
       else {
     header("location:../index.php");
   }
+<<<<<<< HEAD
+
   ?>
+=======
+  ?>
+>>>>>>> b52255a343d83a3daac3699ae7ddef7593243dfd

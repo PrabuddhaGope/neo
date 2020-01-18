@@ -12,7 +12,7 @@
     if($Email=="" || $Password==""){
       echo "Please fill all the details";
     }else{
-      $login = mysqli_query($con,"SELECT * FROM USER WHERE Email='$Email'");
+      $login = mysqli_query($con,"SELECT * FROM user WHERE Email='$Email'");
       $num = mysqli_num_rows($login);
       if($num>0){
         $data = mysqli_fetch_array($login);
