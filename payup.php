@@ -56,22 +56,22 @@
         <!--========== END HEADER ==========-->
 
         <!--========== PROMO BLOCK ==========-->
-        <div id="reg" class="bg_element">
+        <div id="about">
           <!-- <h2 class="g-text-center--xs g-font-size-22--xs g-font-size-36--md g-color--white g-padding-y-20--xs g-padding-y-60--sm">Register Now</h2> -->
           <div class="g-fullheight--md g-container--md g-text-center--xs g-ver-left--md g-padding-y-120--xs g-padding-y-300--md" >
             <div class="g-margin-b-60--xs">
               <p class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Pay Using QR-Code Below</p>
           </div>
 
-          
-                      
+
+
                    <div class="row g-hor-centered-row--md g-row-col--5">
                 <div class="col-sm-3 col-xs-6 col-sm-push-4 g-hor-centered-row__col">
-                
+
                         <img class="img-responsive g-padding-x-0--xs" src="public/img/qr-code.jpeg" alt="StartUp Conclave">
-                    
+
                 </div>
-            
+
              <div class="col-sm-3" ></div>
                 <div class="col-sm-8 col-sm-pull-3 g-hor-centered-row__col g-text-left--xs g-text-right--md" style="padding-top: 30%;text-align: center;">
                     <!--<h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">About StartUp Conclave</h2>-->
@@ -81,7 +81,7 @@
             </div>
         </div>
 
-                
+
 
               </div>
             </div>

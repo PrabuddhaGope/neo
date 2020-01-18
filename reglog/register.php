@@ -24,7 +24,8 @@
                                                                     Phone varchar(255),
                                                                     SchoolName varchar(255),
                                                                     SchoolCity varchar(255),
-                                                                    Password varchar(255) )");
+                                                                    Password varchar(255),
+                                                                    paid tinyint(1))");
 
     if (!$create_table1) {
       echo("Can't create table1" . mysqli_error($con));
