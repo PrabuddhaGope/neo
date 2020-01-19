@@ -1,6 +1,6 @@
 <?php
-  //error_reporting(E_ALL);
-  //ini_set('display_errors', '1');
+  error_reporting(E_ALL);
+  ini_set('display_errors', '1');
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\Exception;
   require '../vendor/autoload.php';
@@ -30,7 +30,7 @@
     if (!$create_table1) {
       echo("Can't create table1" . mysqli_error($con));
     }
-    $insert = mysqli_query($con,"INSERT INTO user(Name,Email,Phone,SchoolName,SchoolCity,Password)
+    $insert = mysqli_query($con,"INSERT INTO USER(Name,Email,Phone,SchoolName,SchoolCity,Password)
                               VALUES('$Name','$Email','$Phone','$SchoolName','$SchoolCity','$Password')");
 
     $mail = new PHPMailer(TRUE);
@@ -126,7 +126,7 @@
                         To keep you updated, all the relevant details will be e-mailed to you very shortly.<br>
                         Use these details to login to your dashboard:<br>
                         Username: '. $Email .'<br>
-                        Password: '. $Password .'
+                        Password:<b> '. $Password .'</b> <br>
                               Over this month, you will get access to plenty of valuable resources, which will help you guide your way through this program.<br>
                         For queries and in case of any difficulty, feel free to contact us.<br>
 
@@ -149,20 +149,7 @@
 
 if($insert){
       header("location:../payup.php");
-
-<<<<<<< HEAD
-=======
-    if($insert){
-      header('location: ../payup.php');
-
->>>>>>> b52255a343d83a3daac3699ae7ddef7593243dfd
-      }
-      else {
+}else {
     header("location:../index.php");
-  }
-<<<<<<< HEAD
-
-  ?>
-=======
-  ?>
->>>>>>> b52255a343d83a3daac3699ae7ddef7593243dfd
+}
+}
