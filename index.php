@@ -73,12 +73,24 @@
       </div>
         <!--========== END PROMO BLOCK ==========-->
         <!-- REGISTER -->
-        <div id="reg" class="bg_element">
+        <div id="structure">
           <!-- <h2 class="g-text-center--xs g-font-size-22--xs g-font-size-36--md g-color--white g-padding-y-20--xs g-padding-y-60--sm">Register Now</h2> -->
+          <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
+          <div class="g-text-center--xs g-margin-b-30--xs">
+              <a href="https://docs.google.com/document/d/1p9FakuCPsTATRW4-iB7q9TfvVqsl0JEayhERZHsjDKw/edit?usp=sharing" class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Structure for School Conduction</a>
+          </div>
+          </div>
+          <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
+          <div class="g-text-center--xs g-margin-b-30--xs">
+              <a href="https://docs.google.com/document/d/1ZWPC7yzPU7V01LtSq0xdMpZbD5hLqUnBVV5xWaTJEG0/edit?usp=sharing" class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Structure for Individual</a>
+          </div>
+        </div>
+        <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
           <div class="g-text-center--xs g-margin-b-30--xs">
               <a href="https://drive.google.com/drive/folders/1lqayohsBHZy1jC1qRttWYoy-HG8CBluD?usp=sharing" class="text-uppercase g-font-size-20--xs g-font-weight--700 g-letter-spacing--2" style="color: #0079bf">Download Study Material</a>
           </div>
         </div>
+      </div>
 
 
         <!--========== PAGE CONTENT ==========-->

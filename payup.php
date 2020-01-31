@@ -76,6 +76,7 @@
                 <div class="col-sm-8 col-sm-pull-3 g-hor-centered-row__col g-text-left--xs g-text-right--md" style="padding-top: 30%;text-align: center;">
                     <!--<h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">About StartUp Conclave</h2>-->
                     <div style="margin-bottom: 10%;visibility: hidden;"></div>
+                    <p class="g-font-size-18--sm" style="color: white;">Please mention name of the Participant on reamarks</p>
                     <p class="g-font-size-18--sm" style="color: white;">You will recieve a payment confirmation email within 6 hours of your payment.</p>
                 </div>
             </div>
