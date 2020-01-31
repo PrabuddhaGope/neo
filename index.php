@@ -109,8 +109,7 @@
                 <div class="col-sm-5 col-sm-pull-1 g-text-left--xs g-hor-centered-row__col">
                     <!--<p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">About</p>-->
                     <!--<h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">About PNAF</h2>-->
-                    <p class="g-font-size-18--sm">National Entrepreneurship Olympiad (NEO) is one
-                        of the national exam which is first of its kind. The
+                    <p class="g-font-size-18--sm">National Entrepreneurship Olympiad (NEO) is one of the national exam which is first of its kind. The
                         aim of NEO is to introduce basic entrepreneurial
                         terms like marketing, banking, investing, mutual
                         funds, stock market, functions of RBI, etc to
