@@ -38,7 +38,8 @@
                                     <li class="s-header-v2__nav-item"><a href="#home" class="s-header-v2__nav-link">Home</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">About Us</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#faq" class="s-header-v2__nav-link">FAQs</a></li>
-                                    <li class="s-header-v2__nav-item"><a href="register.php" class="s-header-v2__nav-link">Register</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="Examportal/login&signup/signup.php" class="s-header-v2__nav-link">Register</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="Examportal/login&signup/login.php" class="s-header-v2__nav-link">Sign In</a></li>
                                     <li class="s-header-v2__nav-item"><a href="#contact" class="s-header-v2__nav-link">Contact</a></li>
                                 </ul>
                             </div>
